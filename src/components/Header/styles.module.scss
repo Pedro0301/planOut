@@ -1,0 +1,29 @@
+.headerContainer {
+    background: var(--white);
+    height: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    padding: 2rem 1rem;
+    border-bottom: 1px solid var(--gray-100);
+     
+    section {
+        text-transform: capitalize;
+        margin-left: auto;
+        display: flex;
+        padding: 0.25rem 2rem 0.25rem 0;
+
+        div {
+            margin-left: 2rem;
+            padding: 0.25rem 0 0.25rem 2rem;
+            border-left: 1px solid var(--gray-100);
+            a {
+                .reactIcons {
+                    font-size: 1.2rem;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+

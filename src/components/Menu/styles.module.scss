@@ -1,0 +1,50 @@
+.menu {
+  width: 10rem;
+  height: max;
+  padding: 0.4rem;
+  background: #fff;
+  border-right: 1px solid rgba($color: #000000, $alpha: 0.08);
+  img {
+    width: 8rem;
+    height: 6.8rem;
+    margin-bottom: 5rem;
+    margin-left: .8rem;
+  }
+  .buttonsMenu {
+      display: grid;
+      font-weight:bold;
+      
+      a {
+        text-decoration:none;
+        padding: 1px;
+        margin: .3rem;
+        
+        
+        
+        button {
+          border: none;
+          text-decoration: none;
+          cursor: pointer;
+          transition: .2s;
+          background: none;
+          padding: .2rem;
+          border:  1px solid rgba($color: #000000, $alpha: 0.03);
+          
+          .reactIcons {
+            font-size: 1rem;
+            
+          }
+         
+        }
+        button:hover {
+          opacity: 0.8;
+          font-size: 1.2rem;
+        }
+      }
+        a:hover {
+          background: #000 0,1;
+        } 
+         
+  }
+}
+
