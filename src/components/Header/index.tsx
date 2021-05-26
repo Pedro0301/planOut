@@ -5,7 +5,7 @@ import ptBR from 'date-fns/locale/pt-BR';
 import Link from 'next/link';
 
 
-export default function Header() {
+export default function Cabecalho() {
     const currentDate = format(new Date(), 'EEEEEE, d MMM', {
         locale: ptBR,
     });

@@ -1,8 +1,8 @@
 import styles from '../styles/app.module.scss';
 import '../styles/global.scss';
-import Header from '../components/Header';
 import Menu from '../components/Menu';
 import Notification from '../components/Notification';
+import Cabecalho from '../components/Header';
 
 
 function MyApp({ Component, pageProps }) {
@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
     <div className={styles.wrapper}>
     <Menu />
     <main>
-      <Header />
+      <Cabecalho />
       <Component {...pageProps} />
     </main>
     <Notification />
